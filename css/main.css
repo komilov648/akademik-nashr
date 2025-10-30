@@ -1,0 +1,226 @@
+/* Googl Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* Core styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.body {
+  font-family: "Roboto", serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.line {
+  background-color: #ff7500;
+  width: 80px;
+  height: 3px;
+  border: none;
+}
+/* Header section styles */
+.header {
+  border-left: 5px solid #ff7500;
+  background-color: #f8f8f8;
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+.button {
+  background-color: #ff7500;
+  border: 1px solid #ff7500;
+  padding: 12px 24px;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s linear;
+}
+.button:hover {
+  opacity: 80%;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo,
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header__title,
+.footer__text {
+  color: black;
+  font-size: 32px;
+}
+.header__text {
+  /* hex value */
+  color: #ff7500;
+}
+.header__right,
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.header__link {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: black;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+}
+.header__link#active__link {
+  border-bottom: 3px solid #ff7500;
+}
+.header__link.active {
+  border-bottom: 2px solid #ff7500;
+}
+.header__link:hover {
+  color: #ff7500;
+}
+.hero {
+  background-color: #252420;
+}
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 144px;
+}
+.hero__title {
+  font-size: 40px;
+  color: #ffffff;
+  margin: 32px 0;
+  letter-spacing: 0.5px;
+  line-height: 48px;
+}
+.hero__description {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  margin-bottom: 28px;
+  line-height: 24px;
+}
+.hero__imge {
+  transform: translate(0, 64px);
+}
+
+/* Book sec */
+.book__wrapper {
+  margin: 144px 0;
+}
+.book__title {
+  margin-top: 24px;
+  font-size: 72px;
+  line-height: 120%;
+  max-width: 500px;
+  letter-spacing: 0.5px;
+}
+.book__cards {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.book__card--circle {
+  width: 100px;
+  height: 100px;
+  background-color: #ff750033;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.book__card--title {
+  font-size: 25px;
+  line-height: 120%;
+  margin: 20px 0;
+  letter-spacing: 0.5px;
+}
+.book__card--description {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+/* sele sesction styles */
+.sale__wrapper {
+  background-color: #252420;
+  padding: 0 64px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 128px;
+}
+.sale__title {
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 120%;
+}
+.sale__description {
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  margin: 20px 0;
+}
+.sale__text {
+  color: #ff7500;
+}
+.sale__image {
+  transform: translateY(-64px);
+}
+/* Footer section styles */
+.footer {
+  background-color: #f8f8f8;
+  margin-top: 64px;
+}
+.footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__icon {
+  color: black;
+  font-size: 24px;
+  margin-left: 12px;
+  transition: all 0.4 linear;
+}
+.footer__icon:hover {
+  color: #ff7500;
+}
+.footer__line {
+  margin: 32px 0;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.footer__wrapper {
+  margin: 80px 0;
+}
+.footer__link {
+  display: block;
+  margin: 12px 0;
+  color: #252420;
+  transition: all 0.3 linear;
+}
+.footer__link:hover {
+  color: #ff7500;
+}
